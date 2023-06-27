@@ -106,11 +106,19 @@ header .navbar .menu{
 .text-content{
   color: white;
   width: 40%;
-  margin: 25px 0 0 50px;
+  margin: 5px 0 0 50px;
 }
 
 .text-content h2{
   margin-bottom: 15px;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 15px;
+  color: white;
 }
 
 @media screen and (max-width:850px){
@@ -142,5 +150,9 @@ header .navbar .menu{
 
   .navbar .menu a{
     font-size: 14px;
+  }
+
+  .bottom{
+    font-size: 10px;
   }
 }
