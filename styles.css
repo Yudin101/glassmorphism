@@ -60,7 +60,7 @@ header .navbar{
 header .navbar .logo a{
   font-size: 22px;
   font-weight: 500;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -75,14 +75,14 @@ header .navbar .menu{
 
 .navbar .menu a{
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 17px;
   font-weight: 500;
-  transition: all 0.3s ease;
+  transition: 0.5s;
 }
 
 .navbar .menu a:hover{
-  color: white;
+  letter-spacing: 0.2em;
 }
 
 .navbar .buttons input{
@@ -137,7 +137,7 @@ header .navbar .menu{
   }
 }
 
-@media screen and (max-width:415px){
+@media screen and (max-width:420px){
   header{
     height: 100%;
     width: 100%;
